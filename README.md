@@ -25,6 +25,54 @@ That is a fascinating application for this type of custom UAV platform! Integrat
 
 <img width="1365" height="768" alt="quadrotor" src="https://github.com/user-attachments/assets/a488eee7-2ab4-4f2e-a355-22f8c9eef227" />
 
+<img width="1600" height="1200" alt="WhatsApp Image 2026-10-21 at 09 18 08" src="https://github.com/user-attachments/assets/e30a27eb-895f-4e81-9a63-a96ab6a98e37" />
+
+<img width="1439" height="1409" src="https://github.com/user-attachments/assets/1109d800-b08d-4462-bb37-a98d1b0ef56b" />
+
+Based on the close-up images of your custom unit, here is a detailed technical overview of the **RF Sensor Payload Module** used for network auditing:
+
+---
+
+## **Hardware & Enclosure Design**
+
+* **Custom 3D-Printed Chassis:** Built with an active cooling slotted rear panel (featuring an integrated exhaust fan grill) and top heat vents to handle high thermal output during extended flights.
+
+
+* **Modular Multi-Band Antenna Array:** Features multiple high-gain omnidirectional blade/stub antennas mounted via direct SMA/RP-SMA brass bulkhead connectors. The hinged design allows 90° orientation adjustments depending on whether the payload is mounted bottom-down or side-slung.
+
+
+* **External Connectivity:** Includes an exposed, accessible side USB-A / Data Interface port for rapid field retrieval of logged data, external power input, or local maintenance without opening the sealed casing.
+
+
+* **Low-Vibration Mounting:** Designed to attach directly underneath the central multirotor frame using quick-release screws or vibration isolators to prevent motor micro-vibrations from disrupting internal circuit boards.
+
+
+
+---
+
+## **Functional Capabilities & Data Collection**
+
+* **Multi-Generation Spectrum Scanning:** Passively scans and decodes 3G (UMTS), 4G (LTE), and 5G (NR) cellular frequencies simultaneously across major West African bands (e.g., 700 MHz, 800 MHz, 900 MHz, 1800 MHz, 2100 MHz, 2600 MHz, and 3.5 GHz Sub-6 GHz).
+
+
+* **Key KPI Logging:**
+* **Signal Strength & Quality:** Records precise $RSRP$ (Reference Signal Received Power), $RSRQ$ (Reference Signal Received Quality), $RSSI$, and $SINR$ (Signal-to-Interference-plus-Noise Ratio).
+* **Cell Identity:** Identifies serving cell IDs ($PCI/Cell\,ID$), Mobile Country Codes ($MCC$), Mobile Network Codes ($MNC$), and Tracking Area Codes ($TAC$) to map exact cell handovers across operators (e.g., Orange, MTN, Moov in Ivory Coast).
+
+
+* **3D Elevation & Coverage Profiling:** Combines real-time GPS/GNSS spatial coordinates with RF measurements to produce 3D coverage heatmaps at varying flight altitudes, identifying vertical signal loss or beamforming tilt issues near high-rise structures or complex terrain.
+
+<img width="1080" height="1920" src="https://github.com/user-attachments/assets/7caf47a8-fef4-4a77-80e2-56b723cb63c0" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-10-21 at 09 18 10" src="https://github.com/user-attachments/assets/c56e9bac-e3da-409b-a6e9-9dc3a31e98bf" />
+<img width="900" height="1600" alt="WhatsApp Image 2026-10-21 at 09 18 10 (2)" src="https://github.com/user-attachments/assets/6a2ae67f-1f3c-49f5-b3b4-7864cff8d02b" />
+
+
+
+
+
+
+
+
 
 The breakdown of all key structural, propulsion, avionics, and payload components featured in this design illustrates how each part contributes to conducting precise airborne 3G/4G/5G mobile network measurements:
 
@@ -111,7 +159,7 @@ In West Africa, rapid telecommunication expansion and diverse terrain present di
 
 * **Cell Tower & Antenna Auditing:**
 * **Azimuth & Tilt Verification:** The onboard high-resolution camera enables visual inspection of radio antennas mounted on cell towers, verifying whether mechanical tilt, direction (azimuth), or physical damage align with planning models.
-* **3D Coverage Mapping:** Airborne RF scanners measure signal parameters ($RSRP$, $RSRQ$, $SINR$) at varying altitudes, mapping vertical coverage for high-density urban areas or future aerial device connectivity.
+* **3D Coverage Mapping:** Airborne RF scanners measure signal parameters (RSRP, RSRQ, SINR) at varying altitudes, mapping vertical coverage for high-density urban areas or future aerial device connectivity.
 
 
 * **Evaluating 3G, 4G, and 5G Coexistence:**
@@ -120,5 +168,11 @@ In West Africa, rapid telecommunication expansion and diverse terrain present di
 
 * **Rapid Infrastructure Audits:**
 * Helps telecom operators, network regulators (such as ARTCI in Ivory Coast), and infrastructure companies inspect tower status, optimize coverage, and audit Quality of Service (QoS) rapidly across urban centers and rural corridors.
+
+https://github.com/user-attachments/assets/10e7887e-17fc-49a5-be65-50ce2542edb5
+
+
+
+
 
 
